@@ -5,7 +5,7 @@ import axios from "axios"
 import "./App.css"
 
 // Set base URL for API requests
-axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://bakendmoi-5.onrender.com"
 
 function App() {
   const [user, setUser] = useState(null)
